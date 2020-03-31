@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel='icon' href='assets/favicon.png' type='image/png'>
+	<title>Scratch TTS API Wrapper</title>
+</head>
+<body>
+<div class="demo">
+<h1>Scratch TTS API Wrapper</h1><br>
+<center><textarea id="words" rows = "15" cols = "80">Enter some text here, and click on the Generate button to listen.</textarea></center><br>
+  <center><form>
+  <h3>Voice:</h3>
+  <select id="voice">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    </select>
+</form>
+  </center><br>
+<center><button onclick="generate()" id="button">Generate</button></center><br>
+<center><audio id="ttsAudio" controls>
+  <source id="tts" src="" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></center><br>
+<center><h4>If you are happy with the results, right click the audio player and select "Save audio as".</h4></center>
+<center><h4>Scratch.mit.edu belongs to the Massachusetts Institude of Technology. We are in no way affiliated with Scratch or MIT.</h4></center>
+<center><h4>We do not own the rights to the Scratch cat mascot either.</h4></center>
+<center><h4>This project was done strictly for educational, experimental and historical purposes only, therefore protecting it under fair use.</h4><center>
+<script src="scripts/main.js"></script>
+</div>
+</body>
+</html>
