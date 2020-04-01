@@ -1,4 +1,4 @@
-# GrFShh
+# ScratchTTS
 
 A PHP wrapper of the unofficial Scratch.mit.edu TTS API. Complete with an HTML/JS/CSS UI.
 
