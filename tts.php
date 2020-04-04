@@ -8,7 +8,7 @@ if ($_GET['voice']) {
 }
 
 if ($_GET['query']) {
-	$text = $_GET['query'];
+	$text = substr($_GET['query'], 0, 128);
 	$text = urlencode($_GET['query']);
 }
 

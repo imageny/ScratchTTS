@@ -9,17 +9,17 @@
 <body>
 <div class="demo">
 <h1>Scratch TTS API Wrapper</h1><br>
-<center><textarea id="words" rows = "15" cols = "80" maxlength="129" onkeyup="countChars(this);">Enter some text here, and click on the Generate button to listen.</textarea></center>
+<center><textarea placeholder="Enter some text here, and click on the Generate button to listen." id="words" rows = "15" cols = "80" maxlength="128" onkeyup="countChars(this);"></textarea></center>
 <center><p id="charNum"></p></center>
   <center><form>
   <h3>Voice:</h3>
   <select id="voice">
-    <option value="male">Male</option>
-    <option value="female">Female</option>
+    <option value="male">Male, Soprano (Matthew, AWS Polly, 8000Hz)</option>
+    <option value="female">Female, Alto (Salli, AWS Polly, 8000Hz)</option>
     </select>
 </form>
   </center><br>
-<center><button onclick="generate()" id="button">Generate</button></center><br>
+<center><button onclick="generate()" class="button">Generate</button></center><br>
 <center><audio id="ttsAudio" controls>
   <source id="tts" src="" type="audio/mpeg">
 Your browser does not support the audio element.
