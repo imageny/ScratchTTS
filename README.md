@@ -37,4 +37,4 @@ This project is licensed under GNU General Public License v3.0 - see the [LICENS
 
 Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.
 
-I do not own the rights to any copyrighted material used in this project. This project is STRICTLY for educational, experimental and historical purposes only, to show how the Gracie Films website used to be like back then, and therefore protects it under fair use. If anyone over at Gracie Films wants me to take it down, I will be happy to do so.
+I do not own the rights to any copyrighted material used in this project. This project is STRICTLY for educational and experimental purposes only, and therefore protects it under fair use. If anyone over at MIT wants me to take it down, I will be happy to do so.
